@@ -74,13 +74,7 @@ To retrain, open `malaria_model_corrected.ipynb` in Jupyter or Google Colab with
 
 > **Security note:** `.pkl` files can execute code when loaded. Only load model files from sources you trust.
 
-## Possible improvements
 
-- Remove the 4-year `sin`/`cos` year encoding, which only produces three distinct values.
-- Fit the scaler and median-fill on the training years only.
-- Train a second model without the mortality indicator to see how much it drives the result.
-- Use the time-series cross-validation folds for evaluation and tuning.
-- Add regional, climate and rainfall data.
 
 ## Data source
 
